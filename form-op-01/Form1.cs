@@ -28,7 +28,7 @@ namespace form_op_01
                 dataGridView1.Rows.Add();
                 dataGridView6.Rows.Add();
                 dataGridView9.Rows.Add();
-                if (i < 6)
+                if (i < 3)
                 {
                     dataGridView3.Rows.Add();
                     dataGridView4.Rows.Add();
@@ -54,12 +54,12 @@ namespace form_op_01
             dataGridView3[0, 1].ReadOnly = true;
             dataGridView3[0, 2].Value = "Выход одного блюда в готовом виде, грамм";
             dataGridView3[0, 2].ReadOnly = true;
-            dataGridView3[0, 3].Value = "Заведующий производством";
-            dataGridView3[0, 3].ReadOnly = true;
-            dataGridView3[0, 4].Value = "Калькуляцию составил";
-            dataGridView3[0, 4].ReadOnly = true;
-            dataGridView3[0, 5].Value = "УТВЕРЖДАЮ";
-            dataGridView3[0, 5].ReadOnly = true;
+            // dataGridView3[0, 3].Value = "Заведующий производством";
+            // dataGridView3[0, 3].ReadOnly = true;
+            // dataGridView3[0, 4].Value = "Калькуляцию составил";
+            // dataGridView3[0, 4].ReadOnly = true;
+            // dataGridView3[0, 5].Value = "УТВЕРЖДАЮ";
+            // dataGridView3[0, 5].ReadOnly = true;
 
             dataGridView1.ClearSelection();
             dataGridView2.ClearSelection();
@@ -83,12 +83,12 @@ namespace form_op_01
             dataGridView4[0, 1].ReadOnly = true;
             dataGridView4[0, 2].Value = "Выход одного блюда в готовом виде, грамм";
             dataGridView4[0, 2].ReadOnly = true;
-            dataGridView4[0, 3].Value = "Заведующий производством";
-            dataGridView4[0, 3].ReadOnly = true;
-            dataGridView4[0, 4].Value = "Калькуляцию составил";
-            dataGridView4[0, 4].ReadOnly = true;
-            dataGridView4[0, 5].Value = "УТВЕРЖДАЮ";
-            dataGridView4[0, 5].ReadOnly = true;
+            // dataGridView4[0, 3].Value = "Заведующий производством";
+            // dataGridView4[0, 3].ReadOnly = true;
+            // dataGridView4[0, 4].Value = "Калькуляцию составил";
+            // dataGridView4[0, 4].ReadOnly = true;
+            // dataGridView4[0, 5].Value = "УТВЕРЖДАЮ";
+            // dataGridView4[0, 5].ReadOnly = true;
 
             dataGridView6.ClearSelection();
             dataGridView5.ClearSelection();
@@ -112,12 +112,12 @@ namespace form_op_01
             dataGridView7[0, 1].ReadOnly = true;
             dataGridView7[0, 2].Value = "Выход одного блюда в готовом виде, грамм";
             dataGridView7[0, 2].ReadOnly = true;
-            dataGridView7[0, 3].Value = "Заведующий производством";
-            dataGridView7[0, 3].ReadOnly = true;
-            dataGridView7[0, 4].Value = "Калькуляцию составил";
-            dataGridView7[0, 4].ReadOnly = true;
-            dataGridView7[0, 5].Value = "УТВЕРЖДАЮ";
-            dataGridView7[0, 5].ReadOnly = true;
+            // dataGridView7[0, 3].Value = "Заведующий производством";
+            // dataGridView7[0, 3].ReadOnly = true;
+            // dataGridView7[0, 4].Value = "Калькуляцию составил";
+            // dataGridView7[0, 4].ReadOnly = true;
+            // dataGridView7[0, 5].Value = "УТВЕРЖДАЮ";
+            // dataGridView7[0, 5].ReadOnly = true;
 
             dataGridView9.ClearSelection();
             dataGridView8.ClearSelection();
